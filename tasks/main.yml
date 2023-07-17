@@ -3,3 +3,7 @@
   yum:
     name: *
     state: latest
+
+- name: Reboot servers
+  reboot:
+    sleep: 10
